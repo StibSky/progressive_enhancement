@@ -1,0 +1,97 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    color: darkslategrey;
+}
+
+a {
+    background-color: greenyellow;
+}
+
+a:hover {
+    background-color: mediumvioletred;
+}
+
+a:visited {
+    background-color: grey;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+
+
+    background: -webkit-linear-gradient(90deg, rgb(255, 255, 255), rgb(196, 170, 170));
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(196, 170, 170));
+
+    font-family: 'Open Sans', sans-serif;
+
+    /*background-image: url("https://previews.123rf.com/images/peangdao/peangdao1704/peangdao170400117/75528002-basmati-rice-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right; */
+
+
+}
+
+blockquote {
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: lightgrey;
+    border-left: 3px solid;
+
+    padding: 80px 0px 80px 30px;
+    font-style: italic;
+}
+
+.neightbors{
+border-left: purple 3px solid;
+    font-style: italic;
+}
+
+.farmer {
+    border-left: green 3px solid;
+    font-style: italic ;
+}
+
+h1:first-child {
+    background-color: yellow;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    margin: 30px;
+    width: 30%;
+
+}
+
+/* element vanonder rechts ankeren
+*position: fixed;
+overflow: hidden;
+bottom: 0;
+right: 0; */
+
+table, th, td {
+    border: 1px solid black;
+}
